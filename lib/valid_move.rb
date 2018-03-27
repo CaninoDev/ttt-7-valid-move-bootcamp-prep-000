@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(int)
-  if(int < 0 || int > 8)
+  if int.between
     return false
   else
     return true
