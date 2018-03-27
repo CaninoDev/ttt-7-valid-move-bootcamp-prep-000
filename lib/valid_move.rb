@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(int)
+def valid_move?(board, index)
   if int.between(1, 8)
     puts int
     return true
