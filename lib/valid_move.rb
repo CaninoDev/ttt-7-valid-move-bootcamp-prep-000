@@ -3,7 +3,7 @@ def valid_move?(board, index)
   if index.between(1, 8)
     if(board[index] == " " || board[index] == "")
     return true
-  elsif board[index].include?("X", "O")
+  elsif board[index].include?("X") || board[index].include?("Y")
     return false
   end
 end
